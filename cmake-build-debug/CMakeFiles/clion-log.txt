@@ -1,4 +1,20 @@
-/home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/axel/terraria
--- Configuring done
--- Generating done
--- Build files have been written to: /home/axel/terraria/cmake-build-debug
+/home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/axelmpm/terraria
+CMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "FindSDL2_image.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "SDL2_image", but CMake did not find one.
+
+  Could not find a package configuration file provided by "SDL2_image" with
+  any of the following names:
+
+    SDL2_imageConfig.cmake
+    sdl2_image-config.cmake
+
+  Add the installation prefix of "SDL2_image" to CMAKE_PREFIX_PATH or set
+  "SDL2_image_DIR" to a directory containing one of the above files.  If
+  "SDL2_image" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/CMakeOutput.log".

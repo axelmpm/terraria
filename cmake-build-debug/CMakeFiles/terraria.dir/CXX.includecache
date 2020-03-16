@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/axel/terraria/Graphics.cpp
+/home/axelmpm/terraria/Graphics.cpp
 Graphics.h
-/home/axel/terraria/Graphics.h
+/home/axelmpm/terraria/Graphics.h
 
-/home/axel/terraria/Graphics.h
+/home/axelmpm/terraria/Graphics.h
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
 -
 
-/home/axel/terraria/main.cpp
+/home/axelmpm/terraria/main.cpp
 iostream
 -
 Graphics.h
-/home/axel/terraria/Graphics.h
+/home/axelmpm/terraria/Graphics.h
 

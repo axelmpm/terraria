@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/axel/terraria
+CMAKE_SOURCE_DIR = /home/axelmpm/terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/axel/terraria/cmake-build-debug
+CMAKE_BINARY_DIR = /home/axelmpm/terraria/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/terraria.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/terraria.dir/flags.make
 
 CMakeFiles/terraria.dir/main.cpp.o: CMakeFiles/terraria.dir/flags.make
 CMakeFiles/terraria.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/axel/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/terraria.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/terraria.dir/main.cpp.o -c /home/axel/terraria/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/axelmpm/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/terraria.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/terraria.dir/main.cpp.o -c /home/axelmpm/terraria/main.cpp
 
 CMakeFiles/terraria.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/terraria.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axel/terraria/main.cpp > CMakeFiles/terraria.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axelmpm/terraria/main.cpp > CMakeFiles/terraria.dir/main.cpp.i
 
 CMakeFiles/terraria.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/terraria.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axel/terraria/main.cpp -o CMakeFiles/terraria.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axelmpm/terraria/main.cpp -o CMakeFiles/terraria.dir/main.cpp.s
 
 CMakeFiles/terraria.dir/Graphics.cpp.o: CMakeFiles/terraria.dir/flags.make
 CMakeFiles/terraria.dir/Graphics.cpp.o: ../Graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/axel/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/terraria.dir/Graphics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/terraria.dir/Graphics.cpp.o -c /home/axel/terraria/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/axelmpm/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/terraria.dir/Graphics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/terraria.dir/Graphics.cpp.o -c /home/axelmpm/terraria/Graphics.cpp
 
 CMakeFiles/terraria.dir/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/terraria.dir/Graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axel/terraria/Graphics.cpp > CMakeFiles/terraria.dir/Graphics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axelmpm/terraria/Graphics.cpp > CMakeFiles/terraria.dir/Graphics.cpp.i
 
 CMakeFiles/terraria.dir/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/terraria.dir/Graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axel/terraria/Graphics.cpp -o CMakeFiles/terraria.dir/Graphics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axelmpm/terraria/Graphics.cpp -o CMakeFiles/terraria.dir/Graphics.cpp.s
 
 # Object files for target terraria
 terraria_OBJECTS = \
@@ -94,8 +94,13 @@ terraria_EXTERNAL_OBJECTS =
 terraria: CMakeFiles/terraria.dir/main.cpp.o
 terraria: CMakeFiles/terraria.dir/Graphics.cpp.o
 terraria: CMakeFiles/terraria.dir/build.make
+terraria: /usr/lib/x86_64-linux-gnu/libSDL2main.a
+terraria: /usr/lib/x86_64-linux-gnu/libSDL2.so
+terraria: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
+terraria: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+terraria: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
 terraria: CMakeFiles/terraria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/axel/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable terraria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/axelmpm/terraria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable terraria"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/terraria.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +113,6 @@ CMakeFiles/terraria.dir/clean:
 .PHONY : CMakeFiles/terraria.dir/clean
 
 CMakeFiles/terraria.dir/depend:
-	cd /home/axel/terraria/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/axel/terraria /home/axel/terraria /home/axel/terraria/cmake-build-debug /home/axel/terraria/cmake-build-debug /home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/axelmpm/terraria/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/axelmpm/terraria /home/axelmpm/terraria /home/axelmpm/terraria/cmake-build-debug /home/axelmpm/terraria/cmake-build-debug /home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/terraria.dir/depend
 
