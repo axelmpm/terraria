@@ -123,33 +123,6 @@ terraria/fast:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/build
 .PHONY : terraria/fast
 
-claseDePrueba.o: claseDePrueba.cpp.o
-
-.PHONY : claseDePrueba.o
-
-# target to build an object file
-claseDePrueba.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.o
-.PHONY : claseDePrueba.cpp.o
-
-claseDePrueba.i: claseDePrueba.cpp.i
-
-.PHONY : claseDePrueba.i
-
-# target to preprocess a source file
-claseDePrueba.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.i
-.PHONY : claseDePrueba.cpp.i
-
-claseDePrueba.s: claseDePrueba.cpp.s
-
-.PHONY : claseDePrueba.s
-
-# target to generate assembly for a file
-claseDePrueba.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.s
-.PHONY : claseDePrueba.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... terraria"
 	@echo "... edit_cache"
-	@echo "... claseDePrueba.o"
-	@echo "... claseDePrueba.i"
-	@echo "... claseDePrueba.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

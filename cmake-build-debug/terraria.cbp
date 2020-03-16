@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/axelmpm/terraria/claseDePrueba.cpp">
-			<Option target="terraria"/>
-		</Unit>
-		<Unit filename="/home/axelmpm/terraria/claseDePrueba.h">
-			<Option target="terraria"/>
-		</Unit>
 		<Unit filename="/home/axelmpm/terraria/main.cpp">
 			<Option target="terraria"/>
 		</Unit>
