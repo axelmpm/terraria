@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/terraria.dir/claseDePrueba.cpp.o"
   "CMakeFiles/terraria.dir/main.cpp.o"
   "terraria"
   "terraria.pdb"

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/axel/terraria
+CMAKE_SOURCE_DIR = /home/axelmpm/terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/axel/terraria/cmake-build-debug
+CMAKE_BINARY_DIR = /home/axelmpm/terraria/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/axel/terraria/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/axel/terraria/cmake-build-debug/CMakeFiles /home/axel/terraria/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/axelmpm/terraria/cmake-build-debug/CMakeFiles /home/axelmpm/terraria/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/axel/terraria/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/axelmpm/terraria/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ terraria/fast:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/build
 .PHONY : terraria/fast
 
+claseDePrueba.o: claseDePrueba.cpp.o
+
+.PHONY : claseDePrueba.o
+
+# target to build an object file
+claseDePrueba.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.o
+.PHONY : claseDePrueba.cpp.o
+
+claseDePrueba.i: claseDePrueba.cpp.i
+
+.PHONY : claseDePrueba.i
+
+# target to preprocess a source file
+claseDePrueba.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.i
+.PHONY : claseDePrueba.cpp.i
+
+claseDePrueba.s: claseDePrueba.cpp.s
+
+.PHONY : claseDePrueba.s
+
+# target to generate assembly for a file
+claseDePrueba.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/claseDePrueba.cpp.s
+.PHONY : claseDePrueba.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... terraria"
 	@echo "... edit_cache"
+	@echo "... claseDePrueba.o"
+	@echo "... claseDePrueba.i"
+	@echo "... claseDePrueba.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

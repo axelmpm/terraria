@@ -11,6 +11,7 @@
   <component name="ProjectId" id="1ZC3WXoyNhw0GNcSNJrc8aQelAV" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="terraria" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="terraria" TARGET_NAME="terraria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="terraria" RUN_TARGET_NAME="terraria">

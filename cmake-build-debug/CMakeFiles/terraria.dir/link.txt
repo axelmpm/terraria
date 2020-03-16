@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/terraria.dir/main.cpp.o  -o terraria 
+/usr/bin/c++  -g   CMakeFiles/terraria.dir/main.cpp.o CMakeFiles/terraria.dir/claseDePrueba.cpp.o  -o terraria 
