@@ -17,3 +17,7 @@ void GameClient::initSDL() {
         LogManager::logError("SDL no pudo inicializarse");
     }
 }
+
+
+
+hola!

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/terraria.dir/main.cpp.o  -o terraria 
+/usr/bin/c++  -g   CMakeFiles/terraria.dir/main.cpp.o CMakeFiles/terraria.dir/Graphics.cpp.o  -o terraria 

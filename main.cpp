@@ -1,6 +1,11 @@
 #include <iostream>
 
+#include "Graphics.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Graphics * graphics = new Graphics();
+    graphics->initSDL(500,500);
+
     return 0;
 }

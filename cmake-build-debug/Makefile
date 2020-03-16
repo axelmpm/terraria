@@ -123,6 +123,33 @@ terraria/fast:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/build
 .PHONY : terraria/fast
 
+Graphics.o: Graphics.cpp.o
+
+.PHONY : Graphics.o
+
+# target to build an object file
+Graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.o
+.PHONY : Graphics.cpp.o
+
+Graphics.i: Graphics.cpp.i
+
+.PHONY : Graphics.i
+
+# target to preprocess a source file
+Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.i
+.PHONY : Graphics.cpp.i
+
+Graphics.s: Graphics.cpp.s
+
+.PHONY : Graphics.s
+
+# target to generate assembly for a file
+Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.s
+.PHONY : Graphics.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... terraria"
 	@echo "... edit_cache"
+	@echo "... Graphics.o"
+	@echo "... Graphics.i"
+	@echo "... Graphics.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

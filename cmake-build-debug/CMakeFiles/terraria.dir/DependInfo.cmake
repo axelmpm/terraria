@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/axel/terraria/Graphics.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Graphics.cpp.o"
   "/home/axel/terraria/main.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
