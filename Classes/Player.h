@@ -8,6 +8,8 @@
 
 #include <SDL_render.h>
 #include "Entity.h"
+#include "MOVEMENT.h"
+#include "Physics.h"
 
 class Player : public Entity {
 
@@ -15,19 +17,12 @@ public:
 
     Player(SDL_Renderer* renderer);
 
-    void moveUp();
-    void moveDown();
-    void moveRight();
-    void moveLeft();
-
 private:
 
     bool id;
     int playerId;
     int WSPEED = 10;
     int WVERTICAL = 10;
-
-
 };
 
 

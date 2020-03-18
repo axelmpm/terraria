@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/axel/terraria/Entity.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Entity.cpp.o"
-  "/home/axel/terraria/EntityManager.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/EntityManager.cpp.o"
-  "/home/axel/terraria/Game.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Game.cpp.o"
-  "/home/axel/terraria/Graphics.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Graphics.cpp.o"
-  "/home/axel/terraria/LevelBuilder.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/LevelBuilder.cpp.o"
-  "/home/axel/terraria/Player.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Player.cpp.o"
-  "/home/axel/terraria/main.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/main.cpp.o"
+  "/home/axelmpm/terraria/Classes/Entity.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Entity.cpp.o"
+  "/home/axelmpm/terraria/Classes/EntityManager.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o"
+  "/home/axelmpm/terraria/Classes/Game.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Game.cpp.o"
+  "/home/axelmpm/terraria/Classes/Graphics.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Graphics.cpp.o"
+  "/home/axelmpm/terraria/Classes/LevelBuilder.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o"
+  "/home/axelmpm/terraria/Classes/Physics.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Physics.cpp.o"
+  "/home/axelmpm/terraria/Classes/Player.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Player.cpp.o"
+  "/home/axelmpm/terraria/Classes/main.cpp" "/home/axelmpm/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

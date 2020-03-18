@@ -30,44 +30,19 @@ void EntityManager::createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* ren
 
 }
 
-//JUGADOR SE MEUVE ARRIBA
-void EntityManager::playerUp() {
-
-    Player* player = playersList.at(0);
-
-    player->moveUp();
-
-}
-
-//JUGADOR SE MUEVE A ABAJO
-void EntityManager::playerDown() {
-
-    Player* player = playersList.at(0);
-
-    player->moveDown();
-
-}
-
-//JUGADOR SE MUEVE A LA DERECHA
-void EntityManager::playerRight() {
-
-    Player* player = playersList.at(0);
-
-    player->moveRight();
-
-
-}
-
-//JUGADOR SE MUEVE A LA IZQUIERDA
-void EntityManager::playerLeft() {
-
-    Player* player = playersList.at(0);
-
-    player->moveLeft();
-}
-
 //OBTIENE LA LISTA DE ENTIDADES
 vector<Entity*> EntityManager::getEntities() {
 
     return this->entitiesList;
+}
+
+Player *EntityManager::getPlayer() {
+    return playersList.at(0);
+}
+
+void EntityManager::updateAllEntities() {
+
+    for (auto entity : entitiesList){
+        entity->update();
+    }
 }
