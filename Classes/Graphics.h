@@ -7,18 +7,23 @@
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include "EntityManager.h"
 
 class Graphics {
 
 public:
 
     void initSDL(int width,int height);
+    void render(EntityManager *pManager);
+    SDL_Renderer* getRenderer();
 
 private:
     SDL_Window * window = nullptr;
     SDL_Renderer * renderer = nullptr;
     int height;
     int width;
+
+    void renderAllEntities(EntityManager *entityManager);
 };
 
 

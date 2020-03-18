@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/axelmpm/terraria
+CMAKE_SOURCE_DIR = /home/axel/terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/axelmpm/terraria/cmake-build-debug
+CMAKE_BINARY_DIR = /home/axel/terraria/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/axelmpm/terraria/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/axelmpm/CLion/clion-2019.2.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/axel/clion-2019.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/axelmpm/terraria/cmake-build-debug/CMakeFiles /home/axelmpm/terraria/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/axel/terraria/cmake-build-debug/CMakeFiles /home/axel/terraria/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/axelmpm/terraria/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/axel/terraria/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,87 @@ terraria/fast:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/build
 .PHONY : terraria/fast
 
+Entity.o: Entity.cpp.o
+
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+EntityManager.o: EntityManager.cpp.o
+
+.PHONY : EntityManager.o
+
+# target to build an object file
+EntityManager.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.o
+.PHONY : EntityManager.cpp.o
+
+EntityManager.i: EntityManager.cpp.i
+
+.PHONY : EntityManager.i
+
+# target to preprocess a source file
+EntityManager.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.i
+.PHONY : EntityManager.cpp.i
+
+EntityManager.s: EntityManager.cpp.s
+
+.PHONY : EntityManager.s
+
+# target to generate assembly for a file
+EntityManager.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.s
+.PHONY : EntityManager.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 Graphics.o: Graphics.cpp.o
 
 .PHONY : Graphics.o
@@ -149,6 +230,60 @@ Graphics.s: Graphics.cpp.s
 Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.s
 .PHONY : Graphics.cpp.s
+
+LevelBuilder.o: LevelBuilder.cpp.o
+
+.PHONY : LevelBuilder.o
+
+# target to build an object file
+LevelBuilder.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.o
+.PHONY : LevelBuilder.cpp.o
+
+LevelBuilder.i: LevelBuilder.cpp.i
+
+.PHONY : LevelBuilder.i
+
+# target to preprocess a source file
+LevelBuilder.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.i
+.PHONY : LevelBuilder.cpp.i
+
+LevelBuilder.s: LevelBuilder.cpp.s
+
+.PHONY : LevelBuilder.s
+
+# target to generate assembly for a file
+LevelBuilder.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.s
+.PHONY : LevelBuilder.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.s
+.PHONY : Player.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... terraria"
 	@echo "... edit_cache"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
+	@echo "... EntityManager.o"
+	@echo "... EntityManager.i"
+	@echo "... EntityManager.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... Graphics.o"
 	@echo "... Graphics.i"
 	@echo "... Graphics.s"
+	@echo "... LevelBuilder.o"
+	@echo "... LevelBuilder.i"
+	@echo "... LevelBuilder.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

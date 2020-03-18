@@ -18,8 +18,8 @@ include_directories(${SDL2_MIXER_INCLUDE_DIRS})
 
 set(SOURCE_FILES
 
-        main.cpp Graphics.cpp Graphics.h
-        )
+        Classes/main.cpp Classes/Graphics.cpp Classes/Graphics.h
+        Classes/Game.cpp Classes/Game.h Classes/Entity.cpp Classes/Entity.h Classes/EntityManager.cpp Classes/EntityManager.h Classes/Player.cpp Classes/Player.h Classes/ENTITIES_ID.h Classes/LevelBuilder.cpp Classes/LevelBuilder.h)
 
 add_executable(terraria ${SOURCE_FILES})
 
