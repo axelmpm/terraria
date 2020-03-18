@@ -47,3 +47,17 @@ void Entity::render() {
 
 }
 
+void Entity::update() {
+    physics.update(&x,&y);
+}
+
+void Entity::changeMovementTo(MOVEMENT movement) {
+
+    if ((movement == RIGHT || movement == LEFT) && last != movement){
+        last = movement;
+        flip = !flip;
+    }
+
+    physics.changeMovementTo(movement);
+}
+

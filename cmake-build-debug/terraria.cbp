@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\sdl\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/axel/terraria/cmake-build-debug"/>
+				<Option working_dir="/home/axelmpm/terraria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/axel/terraria/cmake-build-debug"/>
+				<Option working_dir="/home/axelmpm/terraria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="terraria">
-				<Option output="/home/axel/terraria/cmake-build-debug/terraria" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/axel/terraria/cmake-build-debug"/>
+				<Option output="/home/axelmpm/terraria/cmake-build-debug/terraria" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/axelmpm/terraria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -45,15 +45,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 terraria"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 terraria"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="terraria/fast">
-				<Option output="/home/axel/terraria/cmake-build-debug/terraria" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/axel/terraria/cmake-build-debug"/>
+				<Option output="/home/axelmpm/terraria/cmake-build-debug/terraria" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/axelmpm/terraria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,87 +69,87 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 terraria/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 terraria/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/axel/terraria/cmake-build-debug"/>
+				<Option working_dir="/home/axelmpm/terraria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axel/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/axelmpm/terraria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/axel/terraria/Classes/ENTITIES_ID.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/ENTITIES_ID.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Entity.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/Entity.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Entity.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/Entity.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/EntityManager.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/EntityManager.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/EntityManager.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/EntityManager.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Game.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/Game.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Game.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/Game.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Graphics.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/Graphics.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Graphics.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/Graphics.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/LevelBuilder.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/LevelBuilder.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/LevelBuilder.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/LevelBuilder.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Player.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/MOVEMENT.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/Player.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/Physics.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Classes/main.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/Physics.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/PROPS.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/Player.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Prop.cpp">
+		<Unit filename="/home/axelmpm/terraria/Classes/Player.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Prop.h">
+		<Unit filename="/home/axelmpm/terraria/Classes/main.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/CMakeLists.txt">
+		<Unit filename="/home/axelmpm/terraria/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/sdl/FindSDL2.cmake">
+		<Unit filename="/home/axelmpm/terraria/sdl/FindSDL2.cmake">
 			<Option virtualFolder="CMake Files\sdl\"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/sdl/FindSDL2_image.cmake">
+		<Unit filename="/home/axelmpm/terraria/sdl/FindSDL2_image.cmake">
 			<Option virtualFolder="CMake Files\sdl\"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/sdl/FindSDL2_mixer.cmake">
+		<Unit filename="/home/axelmpm/terraria/sdl/FindSDL2_mixer.cmake">
 			<Option virtualFolder="CMake Files\sdl\"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/sdl/FindSDL2_ttf.cmake">
+		<Unit filename="/home/axelmpm/terraria/sdl/FindSDL2_ttf.cmake">
 			<Option virtualFolder="CMake Files\sdl\"/>
 		</Unit>
 	</Project>

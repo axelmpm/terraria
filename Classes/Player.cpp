@@ -8,41 +8,11 @@
 
 using namespace std;
 
-//CONSTRUCTOR
 Player::Player(SDL_Renderer* renderer) : Entity(renderer) {
 
 
-    this->loadTexture("/home/axel/terraria/texturas/dogo.png");
+    this->loadTexture("/home/axelmpm/terraria/texturas/dogo.png");
 
-}
-
-//JUGADOR SE MUEVE A ARRIBA A NIVEL MODELO
-void Player::moveUp() {
-
-    this->y += -WVERTICAL;
-    ;
-
-}
-
-//JUGADOR SE MUEVE A ABAJO A NIVEL MODELO
-void Player::moveDown() {
-
-    this->y += WVERTICAL;
-}
-
-//JUGADOR SE MUEVE A LA DERECHA A NIVEL MODELO
-void Player::moveRight() {
-
-    this->x += WSPEED;
-    this->flip = true;
-}
-
-
-//JUGADOR SE MUEVE A LA IZQUIERDA A NIVEL MODELO
-void Player::moveLeft() {
-
-    this->x += -WSPEED;
-    this->flip = false;
 }
 
 

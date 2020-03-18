@@ -3,6 +3,8 @@
 
 CMakeFiles/terraria.dir/Classes/Entity.cpp.o: ../Classes/Entity.cpp
 CMakeFiles/terraria.dir/Classes/Entity.cpp.o: ../Classes/Entity.h
+CMakeFiles/terraria.dir/Classes/Entity.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/Entity.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/Entity.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/terraria.dir/Classes/Entity.cpp.o: /usr/include/SDL2/SDL_assert.h
 CMakeFiles/terraria.dir/Classes/Entity.cpp.o: /usr/include/SDL2/SDL_atomic.h
@@ -53,6 +55,8 @@ CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/ENTITIES_ID.h
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/Entity.h
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/EntityManager.cpp
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/EntityManager.h
+CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: /usr/include/SDL2/SDL_blendmode.h
 CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o: /usr/include/SDL2/SDL_config.h
@@ -74,6 +78,8 @@ CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/Entity.h
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/EntityManager.h
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/Game.cpp
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/Game.h
+CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: /usr/include/SDL2/SDL_blendmode.h
 CMakeFiles/terraria.dir/Classes/Game.cpp.o: /usr/include/SDL2/SDL_config.h
@@ -105,6 +111,8 @@ CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/Entity.h
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/EntityManager.h
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/Graphics.cpp
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/Graphics.h
+CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: /usr/include/SDL2/SDL_blendmode.h
 CMakeFiles/terraria.dir/Classes/Graphics.cpp.o: /usr/include/SDL2/SDL_config.h
@@ -126,6 +134,8 @@ CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/Entity.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/EntityManager.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/LevelBuilder.cpp
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/LevelBuilder.h
+CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: /usr/include/SDL2/SDL_blendmode.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: /usr/include/SDL2/SDL_config.h
@@ -142,7 +152,13 @@ CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: /usr/include/SDL2/SDL_video.
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o: /usr/include/SDL2/close_code.h
 
+CMakeFiles/terraria.dir/Classes/Physics.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/Physics.cpp.o: ../Classes/Physics.cpp
+CMakeFiles/terraria.dir/Classes/Physics.cpp.o: ../Classes/Physics.h
+
 CMakeFiles/terraria.dir/Classes/Player.cpp.o: ../Classes/Entity.h
+CMakeFiles/terraria.dir/Classes/Player.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/Player.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/Player.cpp.o: ../Classes/Player.cpp
 CMakeFiles/terraria.dir/Classes/Player.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/Player.cpp.o: /usr/include/SDL2/SDL_blendmode.h
@@ -166,6 +182,8 @@ CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/EntityManager.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/Game.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/Graphics.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/LevelBuilder.h
+CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/MOVEMENT.h
+CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/Physics.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/Player.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: ../Classes/main.cpp
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/SDL_blendmode.h
@@ -182,7 +200,4 @@ CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/SDL_surface.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/SDL_video.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/close_code.h
-
-CMakeFiles/terraria.dir/Prop.cpp.o: ../Prop.cpp
-CMakeFiles/terraria.dir/Prop.cpp.o: ../Prop.h
 
