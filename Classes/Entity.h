@@ -8,6 +8,9 @@
 #include <string>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL.h>
+#include "MOVEMENT.h"
+#include "Physics.h"
+
 using namespace std;
 
 class Entity {
@@ -20,6 +23,9 @@ public:
 
     void loadTexture(string path);
     void render();
+    void update();
+
+    void changeMovementTo(MOVEMENT movement);
 
 //ATRIBUTOS
 public:
@@ -31,6 +37,10 @@ public:
     int w;
     int h;
     bool flip = false;
+
+    MOVEMENT last = RIGHT;
+
+    Physics physics;
 };
 
 

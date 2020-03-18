@@ -18,12 +18,11 @@ public:
 
     void createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* renderer);
 
-    void playerUp();
-    void playerDown();
-    void playerRight();
-    void playerLeft();
-
     vector<Entity*> getEntities();
+
+    Player *getPlayer();
+
+    void updateAllEntities();
 
 private:
 

@@ -21,6 +21,8 @@ private:
     bool running = true;
 
     EntityManager* entityManager = nullptr;
+
+    void handleEvents();
 };
 
 
