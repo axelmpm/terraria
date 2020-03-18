@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/terraria.dir/Classes/Physics.cpp.o"
   "CMakeFiles/terraria.dir/Classes/Player.cpp.o"
   "CMakeFiles/terraria.dir/Classes/main.cpp.o"
+  "CMakeFiles/terraria.dir/Prop.cpp.o"
   "terraria"
   "terraria.pdb"
 )

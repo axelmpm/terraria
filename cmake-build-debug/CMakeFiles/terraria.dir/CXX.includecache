@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/axelmpm/terraria/Classes/ENTITIES_ID.h
+/home/axel/terraria/Classes/ENTITIES_ID.h
 
-/home/axelmpm/terraria/Classes/Entity.cpp
+/home/axel/terraria/Classes/Entity.cpp
 SDL_render.h
 -
 Entity.h
-/home/axelmpm/terraria/Classes/Entity.h
+/home/axel/terraria/Classes/Entity.h
 string
 -
 SDL_image.h
 -
 
-/home/axelmpm/terraria/Classes/Entity.h
+/home/axel/terraria/Classes/Entity.h
 string
 -
 SDL2/SDL_image.h
@@ -26,91 +26,95 @@ SDL2/SDL_image.h
 SDL2/SDL.h
 -
 MOVEMENT.h
-/home/axelmpm/terraria/Classes/MOVEMENT.h
+/home/axel/terraria/Classes/MOVEMENT.h
 Physics.h
-/home/axelmpm/terraria/Classes/Physics.h
+/home/axel/terraria/Classes/Physics.h
 
-/home/axelmpm/terraria/Classes/EntityManager.cpp
+/home/axel/terraria/Classes/EntityManager.cpp
 EntityManager.h
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 vector
 -
 Entity.h
-/home/axelmpm/terraria/Classes/Entity.h
+/home/axel/terraria/Classes/Entity.h
 ENTITIES_ID.h
-/home/axelmpm/terraria/Classes/ENTITIES_ID.h
+/home/axel/terraria/Classes/ENTITIES_ID.h
 Player.h
-/home/axelmpm/terraria/Classes/Player.h
+/home/axel/terraria/Classes/Player.h
 
-/home/axelmpm/terraria/Classes/Game.cpp
+/home/axel/terraria/Classes/Game.cpp
 SDL_events.h
 -
 Game.h
-/home/axelmpm/terraria/Classes/Game.h
+/home/axel/terraria/Classes/Game.h
 iostream
 -
 
-/home/axelmpm/terraria/Classes/Game.h
+/home/axel/terraria/Classes/Game.h
 EntityManager.h
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 
-/home/axelmpm/terraria/Classes/Graphics.cpp
+/home/axel/terraria/Classes/Graphics.cpp
 Graphics.h
-/home/axelmpm/terraria/Classes/Graphics.h
+/home/axel/terraria/Classes/Graphics.h
 
-/home/axelmpm/terraria/Classes/Graphics.h
+/home/axel/terraria/Classes/Graphics.h
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
 -
 EntityManager.h
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 
-/home/axelmpm/terraria/Classes/LevelBuilder.cpp
+/home/axel/terraria/Classes/LevelBuilder.cpp
 LevelBuilder.h
-/home/axelmpm/terraria/Classes/LevelBuilder.h
+/home/axel/terraria/Classes/LevelBuilder.h
 
-/home/axelmpm/terraria/Classes/LevelBuilder.h
+/home/axel/terraria/Classes/LevelBuilder.h
 EntityManager.h
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 
-/home/axelmpm/terraria/Classes/MOVEMENT.h
+/home/axel/terraria/Classes/MOVEMENT.h
 
-/home/axelmpm/terraria/Classes/Physics.h
+/home/axel/terraria/Classes/Physics.cpp
+Physics.h
+/home/axel/terraria/Classes/Physics.h
+
+/home/axel/terraria/Classes/Physics.h
 MOVEMENT.h
-/home/axelmpm/terraria/Classes/MOVEMENT.h
+/home/axel/terraria/Classes/MOVEMENT.h
 
-/home/axelmpm/terraria/Classes/Player.cpp
+/home/axel/terraria/Classes/Player.cpp
 Player.h
-/home/axelmpm/terraria/Classes/Player.h
+/home/axel/terraria/Classes/Player.h
 iostream
 -
 SDL_render.h
 -
 
-/home/axelmpm/terraria/Classes/Player.h
+/home/axel/terraria/Classes/Player.h
 SDL_render.h
 -
 Entity.h
-/home/axelmpm/terraria/Classes/Entity.h
+/home/axel/terraria/Classes/Entity.h
 MOVEMENT.h
-/home/axelmpm/terraria/Classes/MOVEMENT.h
+/home/axel/terraria/Classes/MOVEMENT.h
 Physics.h
-/home/axelmpm/terraria/Classes/Physics.h
+/home/axel/terraria/Classes/Physics.h
 
-/home/axelmpm/terraria/Classes/main.cpp
+/home/axel/terraria/Classes/main.cpp
 iostream
 -
 Graphics.h
-/home/axelmpm/terraria/Classes/Graphics.h
+/home/axel/terraria/Classes/Graphics.h
 Game.h
-/home/axelmpm/terraria/Classes/Game.h
+/home/axel/terraria/Classes/Game.h
 EntityManager.h
-/home/axelmpm/terraria/Classes/EntityManager.h
+/home/axel/terraria/Classes/EntityManager.h
 LevelBuilder.h
-/home/axelmpm/terraria/Classes/LevelBuilder.h
+/home/axel/terraria/Classes/LevelBuilder.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

@@ -8,10 +8,9 @@
 
 using namespace std;
 
-Player::Player(SDL_Renderer* renderer) : Entity(renderer) {
+Player::Player(int x,int y, SDL_Renderer* renderer) : Entity(x,y,renderer) {
 
-
-    this->loadTexture("/home/axelmpm/terraria/texturas/dogo.png");
+    this->loadTexture("/home/axel/terraria/texturas/dogo.png");
 
 }
 

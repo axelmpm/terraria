@@ -9,8 +9,10 @@
 using namespace std;
 
 //CONSTRUCTOR
-Entity::Entity(SDL_Renderer *renderer) {
+Entity::Entity(int x, int y, SDL_Renderer *renderer) {
 
+    this->x = x;
+    this->y = y;
     this->renderer = renderer;
 
 }

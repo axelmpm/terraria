@@ -19,7 +19,7 @@ class Entity {
 //METODOS
 public:
 
-    Entity(SDL_Renderer* renderer);
+    Entity(int x, int y,SDL_Renderer* renderer);
 
     void loadTexture(string path);
     void render();

@@ -11,6 +11,7 @@
 class Physics {
 
 public:
+    Physics();
     void update(int* x, int* y);
     void changeMovementTo(MOVEMENT movement);
 

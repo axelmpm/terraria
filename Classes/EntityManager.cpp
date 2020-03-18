@@ -12,7 +12,7 @@ void EntityManager::createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* ren
 
         case DOG:{
 
-            Player* player = new Player(renderer);
+            Player* player = new Player(x,y,renderer);
 
             playersList.push_back(player);
             entitiesList.push_back(player);

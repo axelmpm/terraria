@@ -4,6 +4,10 @@
 
 #include "Physics.h"
 
+Physics::Physics() {
+    changeMovementTo(STILL);
+}
+
 void Physics::update(int* x, int* y) {
 
     speedX += accelerationX;

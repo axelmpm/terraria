@@ -16,7 +16,8 @@ class Player : public Entity {
 public:
 
 //METODOS
-    Player(SDL_Renderer* renderer);
+
+    Player(int x, int y, SDL_Renderer *renderer);
 
 private:
 
