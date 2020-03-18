@@ -86,46 +86,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/axel/terraria/ENTITIES_ID.h">
+		<Unit filename="/home/axel/terraria/Classes/ENTITIES_ID.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Entity.cpp">
+		<Unit filename="/home/axel/terraria/Classes/Entity.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Entity.h">
+		<Unit filename="/home/axel/terraria/Classes/Entity.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/EntityManager.cpp">
+		<Unit filename="/home/axel/terraria/Classes/EntityManager.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/EntityManager.h">
+		<Unit filename="/home/axel/terraria/Classes/EntityManager.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Game.cpp">
+		<Unit filename="/home/axel/terraria/Classes/Game.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Game.h">
+		<Unit filename="/home/axel/terraria/Classes/Game.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Graphics.cpp">
+		<Unit filename="/home/axel/terraria/Classes/Graphics.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Graphics.h">
+		<Unit filename="/home/axel/terraria/Classes/Graphics.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/LevelBuilder.cpp">
+		<Unit filename="/home/axel/terraria/Classes/LevelBuilder.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/LevelBuilder.h">
+		<Unit filename="/home/axel/terraria/Classes/LevelBuilder.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Player.cpp">
+		<Unit filename="/home/axel/terraria/Classes/Player.cpp">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/Player.h">
+		<Unit filename="/home/axel/terraria/Classes/Player.h">
 			<Option target="terraria"/>
 		</Unit>
-		<Unit filename="/home/axel/terraria/main.cpp">
+		<Unit filename="/home/axel/terraria/Classes/main.cpp">
+			<Option target="terraria"/>
+		</Unit>
+		<Unit filename="/home/axel/terraria/PROPS.h">
+			<Option target="terraria"/>
+		</Unit>
+		<Unit filename="/home/axel/terraria/Prop.cpp">
+			<Option target="terraria"/>
+		</Unit>
+		<Unit filename="/home/axel/terraria/Prop.h">
 			<Option target="terraria"/>
 		</Unit>
 		<Unit filename="/home/axel/terraria/CMakeLists.txt">

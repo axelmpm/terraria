@@ -123,194 +123,221 @@ terraria/fast:
 	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/build
 .PHONY : terraria/fast
 
-Entity.o: Entity.cpp.o
+Classes/Entity.o: Classes/Entity.cpp.o
 
-.PHONY : Entity.o
-
-# target to build an object file
-Entity.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.o
-.PHONY : Entity.cpp.o
-
-Entity.i: Entity.cpp.i
-
-.PHONY : Entity.i
-
-# target to preprocess a source file
-Entity.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.i
-.PHONY : Entity.cpp.i
-
-Entity.s: Entity.cpp.s
-
-.PHONY : Entity.s
-
-# target to generate assembly for a file
-Entity.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Entity.cpp.s
-.PHONY : Entity.cpp.s
-
-EntityManager.o: EntityManager.cpp.o
-
-.PHONY : EntityManager.o
+.PHONY : Classes/Entity.o
 
 # target to build an object file
-EntityManager.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.o
-.PHONY : EntityManager.cpp.o
+Classes/Entity.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Entity.cpp.o
+.PHONY : Classes/Entity.cpp.o
 
-EntityManager.i: EntityManager.cpp.i
+Classes/Entity.i: Classes/Entity.cpp.i
 
-.PHONY : EntityManager.i
+.PHONY : Classes/Entity.i
 
 # target to preprocess a source file
-EntityManager.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.i
-.PHONY : EntityManager.cpp.i
+Classes/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Entity.cpp.i
+.PHONY : Classes/Entity.cpp.i
 
-EntityManager.s: EntityManager.cpp.s
+Classes/Entity.s: Classes/Entity.cpp.s
 
-.PHONY : EntityManager.s
+.PHONY : Classes/Entity.s
 
 # target to generate assembly for a file
-EntityManager.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/EntityManager.cpp.s
-.PHONY : EntityManager.cpp.s
+Classes/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Entity.cpp.s
+.PHONY : Classes/Entity.cpp.s
 
-Game.o: Game.cpp.o
+Classes/EntityManager.o: Classes/EntityManager.cpp.o
 
-.PHONY : Game.o
+.PHONY : Classes/EntityManager.o
 
 # target to build an object file
-Game.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.o
-.PHONY : Game.cpp.o
+Classes/EntityManager.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o
+.PHONY : Classes/EntityManager.cpp.o
 
-Game.i: Game.cpp.i
+Classes/EntityManager.i: Classes/EntityManager.cpp.i
 
-.PHONY : Game.i
+.PHONY : Classes/EntityManager.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+Classes/EntityManager.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/EntityManager.cpp.i
+.PHONY : Classes/EntityManager.cpp.i
 
-Game.s: Game.cpp.s
+Classes/EntityManager.s: Classes/EntityManager.cpp.s
 
-.PHONY : Game.s
+.PHONY : Classes/EntityManager.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+Classes/EntityManager.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/EntityManager.cpp.s
+.PHONY : Classes/EntityManager.cpp.s
 
-Graphics.o: Graphics.cpp.o
+Classes/Game.o: Classes/Game.cpp.o
 
-.PHONY : Graphics.o
+.PHONY : Classes/Game.o
 
 # target to build an object file
-Graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.o
-.PHONY : Graphics.cpp.o
+Classes/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Game.cpp.o
+.PHONY : Classes/Game.cpp.o
 
-Graphics.i: Graphics.cpp.i
+Classes/Game.i: Classes/Game.cpp.i
 
-.PHONY : Graphics.i
+.PHONY : Classes/Game.i
 
 # target to preprocess a source file
-Graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.i
-.PHONY : Graphics.cpp.i
+Classes/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Game.cpp.i
+.PHONY : Classes/Game.cpp.i
 
-Graphics.s: Graphics.cpp.s
+Classes/Game.s: Classes/Game.cpp.s
 
-.PHONY : Graphics.s
+.PHONY : Classes/Game.s
 
 # target to generate assembly for a file
-Graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Graphics.cpp.s
-.PHONY : Graphics.cpp.s
+Classes/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Game.cpp.s
+.PHONY : Classes/Game.cpp.s
 
-LevelBuilder.o: LevelBuilder.cpp.o
+Classes/Graphics.o: Classes/Graphics.cpp.o
 
-.PHONY : LevelBuilder.o
+.PHONY : Classes/Graphics.o
 
 # target to build an object file
-LevelBuilder.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.o
-.PHONY : LevelBuilder.cpp.o
+Classes/Graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Graphics.cpp.o
+.PHONY : Classes/Graphics.cpp.o
 
-LevelBuilder.i: LevelBuilder.cpp.i
+Classes/Graphics.i: Classes/Graphics.cpp.i
 
-.PHONY : LevelBuilder.i
+.PHONY : Classes/Graphics.i
 
 # target to preprocess a source file
-LevelBuilder.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.i
-.PHONY : LevelBuilder.cpp.i
+Classes/Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Graphics.cpp.i
+.PHONY : Classes/Graphics.cpp.i
 
-LevelBuilder.s: LevelBuilder.cpp.s
+Classes/Graphics.s: Classes/Graphics.cpp.s
 
-.PHONY : LevelBuilder.s
+.PHONY : Classes/Graphics.s
 
 # target to generate assembly for a file
-LevelBuilder.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/LevelBuilder.cpp.s
-.PHONY : LevelBuilder.cpp.s
+Classes/Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Graphics.cpp.s
+.PHONY : Classes/Graphics.cpp.s
 
-Player.o: Player.cpp.o
+Classes/LevelBuilder.o: Classes/LevelBuilder.cpp.o
 
-.PHONY : Player.o
+.PHONY : Classes/LevelBuilder.o
 
 # target to build an object file
-Player.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.o
-.PHONY : Player.cpp.o
+Classes/LevelBuilder.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o
+.PHONY : Classes/LevelBuilder.cpp.o
 
-Player.i: Player.cpp.i
+Classes/LevelBuilder.i: Classes/LevelBuilder.cpp.i
 
-.PHONY : Player.i
+.PHONY : Classes/LevelBuilder.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+Classes/LevelBuilder.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.i
+.PHONY : Classes/LevelBuilder.cpp.i
 
-Player.s: Player.cpp.s
+Classes/LevelBuilder.s: Classes/LevelBuilder.cpp.s
 
-.PHONY : Player.s
+.PHONY : Classes/LevelBuilder.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+Classes/LevelBuilder.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.s
+.PHONY : Classes/LevelBuilder.cpp.s
 
-main.o: main.cpp.o
+Classes/Player.o: Classes/Player.cpp.o
 
-.PHONY : main.o
+.PHONY : Classes/Player.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/main.cpp.o
-.PHONY : main.cpp.o
+Classes/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Player.cpp.o
+.PHONY : Classes/Player.cpp.o
 
-main.i: main.cpp.i
+Classes/Player.i: Classes/Player.cpp.i
 
-.PHONY : main.i
+.PHONY : Classes/Player.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/main.cpp.i
-.PHONY : main.cpp.i
+Classes/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Player.cpp.i
+.PHONY : Classes/Player.cpp.i
 
-main.s: main.cpp.s
+Classes/Player.s: Classes/Player.cpp.s
 
-.PHONY : main.s
+.PHONY : Classes/Player.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/main.cpp.s
-.PHONY : main.cpp.s
+Classes/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/Player.cpp.s
+.PHONY : Classes/Player.cpp.s
+
+Classes/main.o: Classes/main.cpp.o
+
+.PHONY : Classes/main.o
+
+# target to build an object file
+Classes/main.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/main.cpp.o
+.PHONY : Classes/main.cpp.o
+
+Classes/main.i: Classes/main.cpp.i
+
+.PHONY : Classes/main.i
+
+# target to preprocess a source file
+Classes/main.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/main.cpp.i
+.PHONY : Classes/main.cpp.i
+
+Classes/main.s: Classes/main.cpp.s
+
+.PHONY : Classes/main.s
+
+# target to generate assembly for a file
+Classes/main.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Classes/main.cpp.s
+.PHONY : Classes/main.cpp.s
+
+Prop.o: Prop.cpp.o
+
+.PHONY : Prop.o
+
+# target to build an object file
+Prop.cpp.o:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Prop.cpp.o
+.PHONY : Prop.cpp.o
+
+Prop.i: Prop.cpp.i
+
+.PHONY : Prop.i
+
+# target to preprocess a source file
+Prop.cpp.i:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Prop.cpp.i
+.PHONY : Prop.cpp.i
+
+Prop.s: Prop.cpp.s
+
+.PHONY : Prop.s
+
+# target to generate assembly for a file
+Prop.cpp.s:
+	$(MAKE) -f CMakeFiles/terraria.dir/build.make CMakeFiles/terraria.dir/Prop.cpp.s
+.PHONY : Prop.cpp.s
 
 # Help Target
 help:
@@ -321,27 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... terraria"
 	@echo "... edit_cache"
-	@echo "... Entity.o"
-	@echo "... Entity.i"
-	@echo "... Entity.s"
-	@echo "... EntityManager.o"
-	@echo "... EntityManager.i"
-	@echo "... EntityManager.s"
-	@echo "... Game.o"
-	@echo "... Game.i"
-	@echo "... Game.s"
-	@echo "... Graphics.o"
-	@echo "... Graphics.i"
-	@echo "... Graphics.s"
-	@echo "... LevelBuilder.o"
-	@echo "... LevelBuilder.i"
-	@echo "... LevelBuilder.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Classes/Entity.o"
+	@echo "... Classes/Entity.i"
+	@echo "... Classes/Entity.s"
+	@echo "... Classes/EntityManager.o"
+	@echo "... Classes/EntityManager.i"
+	@echo "... Classes/EntityManager.s"
+	@echo "... Classes/Game.o"
+	@echo "... Classes/Game.i"
+	@echo "... Classes/Game.s"
+	@echo "... Classes/Graphics.o"
+	@echo "... Classes/Graphics.i"
+	@echo "... Classes/Graphics.s"
+	@echo "... Classes/LevelBuilder.o"
+	@echo "... Classes/LevelBuilder.i"
+	@echo "... Classes/LevelBuilder.s"
+	@echo "... Classes/Player.o"
+	@echo "... Classes/Player.i"
+	@echo "... Classes/Player.s"
+	@echo "... Classes/main.o"
+	@echo "... Classes/main.i"
+	@echo "... Classes/main.s"
+	@echo "... Prop.o"
+	@echo "... Prop.i"
+	@echo "... Prop.s"
 .PHONY : help
 
 

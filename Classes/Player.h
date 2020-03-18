@@ -13,6 +13,7 @@ class Player : public Entity {
 
 public:
 
+//METODOS
     Player(SDL_Renderer* renderer);
 
     void moveUp();
@@ -22,6 +23,7 @@ public:
 
 private:
 
+//ATRIBUTOS
     bool id;
     int playerId;
     int WSPEED = 10;

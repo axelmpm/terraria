@@ -13,17 +13,20 @@ class Graphics {
 
 public:
 
+//METODOS
     void initSDL(int width,int height);
-    void render(EntityManager *pManager);
+    void renderAll(EntityManager *pManager);
+    void renderAllEntities(EntityManager *entityManager);
+
     SDL_Renderer* getRenderer();
 
 private:
+
+//ATRIBUTOS
     SDL_Window * window = nullptr;
     SDL_Renderer * renderer = nullptr;
     int height;
     int width;
-
-    void renderAllEntities(EntityManager *entityManager);
 };
 
 

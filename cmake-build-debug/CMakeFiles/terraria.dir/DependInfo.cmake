@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/axel/terraria/Entity.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Entity.cpp.o"
-  "/home/axel/terraria/EntityManager.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/EntityManager.cpp.o"
-  "/home/axel/terraria/Game.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Game.cpp.o"
-  "/home/axel/terraria/Graphics.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Graphics.cpp.o"
-  "/home/axel/terraria/LevelBuilder.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/LevelBuilder.cpp.o"
-  "/home/axel/terraria/Player.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Player.cpp.o"
-  "/home/axel/terraria/main.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/main.cpp.o"
+  "/home/axel/terraria/Classes/Entity.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Entity.cpp.o"
+  "/home/axel/terraria/Classes/EntityManager.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/EntityManager.cpp.o"
+  "/home/axel/terraria/Classes/Game.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Game.cpp.o"
+  "/home/axel/terraria/Classes/Graphics.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Graphics.cpp.o"
+  "/home/axel/terraria/Classes/LevelBuilder.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/LevelBuilder.cpp.o"
+  "/home/axel/terraria/Classes/Player.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/Player.cpp.o"
+  "/home/axel/terraria/Classes/main.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Classes/main.cpp.o"
+  "/home/axel/terraria/Prop.cpp" "/home/axel/terraria/cmake-build-debug/CMakeFiles/terraria.dir/Prop.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

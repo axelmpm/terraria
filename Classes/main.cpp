@@ -5,7 +5,7 @@
 #include "EntityManager.h"
 #include "LevelBuilder.h"
 
-
+//ACA SE DESARROLLA EL GAMELOOP
 int main() {
 
     auto* entityManager = new EntityManager();
@@ -19,7 +19,7 @@ int main() {
 
     while (game->isRunning()){
 
-        graphics->render(entityManager);
+        graphics->renderAll(entityManager);
         game->update();
 
     }

@@ -5,7 +5,7 @@
 #include "Graphics.h"
 
 
-
+//INICIALIZA SDL
 void Graphics::initSDL(int width,int height) {
 
     SDL_Init(SDL_INIT_VIDEO);
@@ -21,7 +21,8 @@ void Graphics::initSDL(int width,int height) {
 
 }
 
-void Graphics::render(EntityManager *pManager) {
+//RENDERIZA TOD0
+void Graphics::renderAll(EntityManager *pManager) {
 
     SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 100, 0xFF);
     SDL_RenderClear(renderer);
@@ -30,6 +31,7 @@ void Graphics::render(EntityManager *pManager) {
 
 }
 
+//RENDERIZA TODAS LAS ENTIDADES
 void Graphics::renderAllEntities(EntityManager *entityManager) {
 
     vector<Entity*> entities = entityManager->getEntities();
@@ -41,6 +43,7 @@ void Graphics::renderAllEntities(EntityManager *entityManager) {
     }
 }
 
+//OBTIENE EL RENDERER
 SDL_Renderer *Graphics::getRenderer() {
     return this->renderer;
 }

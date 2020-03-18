@@ -16,6 +16,7 @@ class EntityManager {
 
 public:
 
+//METODOS
     void createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* renderer);
 
     void playerUp();
@@ -27,6 +28,7 @@ public:
 
 private:
 
+//ATRIBUTOS
     vector<Entity*> entitiesList;
     vector<Player*> playersList;
     //vector<Npc*> npcsList;

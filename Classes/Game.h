@@ -10,14 +10,17 @@
 
 class Game {
 
-
 public:
+
+//METODOS
     Game(EntityManager *entityManager1);
 
     bool isRunning();
     void update();
 
 private:
+
+//ATRIBUTOS
     bool running = true;
 
     EntityManager* entityManager = nullptr;

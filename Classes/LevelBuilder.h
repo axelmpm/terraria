@@ -11,6 +11,8 @@
 class LevelBuilder {
 
 public:
+
+//METODOS
     LevelBuilder(EntityManager *pManager);
 
     void build1(SDL_Renderer* renderer);
@@ -18,6 +20,7 @@ public:
 
 private:
 
+//ATRIBUTOS
     EntityManager* entityManager = nullptr;
 };
 
