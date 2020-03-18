@@ -4,7 +4,7 @@
 
 #include "EntityManager.h"
 
-
+//CREA UNA ENTIDAD, REQUIERE EL TIPO DE ENTIDAD, POSICION X & Y, RENDERER
 void EntityManager::createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* renderer) {
 
 
@@ -30,6 +30,7 @@ void EntityManager::createEntity(ENTITIES_ID npc, int x, int y,SDL_Renderer* ren
 
 }
 
+//JUGADOR SE MEUVE ARRIBA
 void EntityManager::playerUp() {
 
     Player* player = playersList.at(0);
@@ -38,6 +39,7 @@ void EntityManager::playerUp() {
 
 }
 
+//JUGADOR SE MUEVE A ABAJO
 void EntityManager::playerDown() {
 
     Player* player = playersList.at(0);
@@ -46,6 +48,7 @@ void EntityManager::playerDown() {
 
 }
 
+//JUGADOR SE MUEVE A LA DERECHA
 void EntityManager::playerRight() {
 
     Player* player = playersList.at(0);
@@ -55,6 +58,7 @@ void EntityManager::playerRight() {
 
 }
 
+//JUGADOR SE MUEVE A LA IZQUIERDA
 void EntityManager::playerLeft() {
 
     Player* player = playersList.at(0);
@@ -62,6 +66,7 @@ void EntityManager::playerLeft() {
     player->moveLeft();
 }
 
+//OBTIENE LA LISTA DE ENTIDADES
 vector<Entity*> EntityManager::getEntities() {
 
     return this->entitiesList;
