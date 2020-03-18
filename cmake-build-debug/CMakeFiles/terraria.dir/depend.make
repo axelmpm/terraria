@@ -183,3 +183,6 @@ CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/SDL_video.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/terraria.dir/Classes/main.cpp.o: /usr/include/SDL2/close_code.h
 
+CMakeFiles/terraria.dir/Prop.cpp.o: ../Prop.cpp
+CMakeFiles/terraria.dir/Prop.cpp.o: ../Prop.h
+

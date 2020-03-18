@@ -12,41 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b12487c-2563-40bd-8dbc-364c25ba4610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PROPS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prop.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/EntityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/EntityManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Graphics.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Graphics.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Graphics.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Graphics.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/LevelBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/LevelBuilder.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/LevelBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/LevelBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/Entity.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/EntityManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/Game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/Graphics.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/LevelBuilder.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/Player.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/terraria.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/terraria" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/terraria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/terraria.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/terraria.cbp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +46,6 @@
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1ZC3WXoyNhw0GNcSNJrc8aQelAV" />
@@ -124,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584329609441</updated>
       <workItem from="1584329615080" duration="1962000" />
-      <workItem from="1584420760829" duration="27370000" />
+      <workItem from="1584420760829" duration="28244000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;clase de prueba&quot;">
       <created>1584329659220</created>
@@ -161,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584521100952</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.0 u">
+      <created>1584527667713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584527667713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,8 +149,39 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/physics" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/physics" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -185,7 +192,8 @@
     <MESSAGE value="65" />
     <MESSAGE value="agrego sdl" />
     <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+    <MESSAGE value="1.0 u" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0 u" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
